@@ -61,7 +61,7 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button class="hero-btn" type="button">Заказать услугу</button>
+          <button class="hero-btn link" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <section class="section">
@@ -291,43 +291,43 @@
           <h2 class="second-title">Постоянные клиенты</h2>
           <ul class="clients">
             <li class="clients-item">
-              <a class="clients-link" href="">
-                <svg class="clients-icon" width="106" height="60">
+              <a class="clients-link link" href="">
+                <svg class="clients-icon link" width="106" height="60">
                   <use href="./images/sprite.svg#icon-logo-one"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
-              <a class="clients-link" href="">
-                <svg class="clients-icon" width="106" height="60">
+              <a class="clients-link link" href="">
+                <svg class="clients-icon link" width="106" height="60">
                   <use href="./images/sprite.svg#icon-logo-two"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
-              <a class="clients-link" href="">
-                <svg class="clients-icon" width="106" height="60">
+              <a class="clients-link link" href="">
+                <svg class="clients-icon link" width="106" height="60">
                   <use href="./images/sprite.svg#icon-logo-three"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
-              <a class="clients-link" href="">
-                <svg class="clients-icon" width="106" height="60">
+              <a class="clients-link link" href="">
+                <svg class="clients-icon link" width="106" height="60">
                   <use href="./images/sprite.svg#icon-logo-four"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
-              <a class="clients-link" href="">
-                <svg class="clients-icon" width="106" height="60">
+              <a class="clients-link link" href="">
+                <svg class="clients-icon link" width="106" height="60">
                   <use href="./images/sprite.svg#icon-logo-five"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-item">
-              <a class="clients-link" href="">
-                <svg class="clients-icon" width="106" height="60">
+              <a class="clients-link link" href="">
+                <svg class="clients-icon link" width="106" height="60">
                   <use href="./images/sprite.svg#icon-logo-six"></use>
                 </svg>
               </a>
@@ -365,28 +365,28 @@
           <p class="footer-text">присоединяйтесь</p>
           <ul class="socials-list">
             <li class="socials-item">
-              <a class="socials-link-footer" href="">
+              <a class="socials-link-footer link" href="">
                 <svg class="icon-socials" width="20" height="20">
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="socials-item">
-              <a class="socials-link-footer" href="">
+              <a class="socials-link-footer link" href="">
                 <svg class="icon-socials" width="20" height="20">
                   <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="socials-item">
-              <a class="socials-link-footer" href="">
+              <a class="socials-link-footer link" href="">
                 <svg class="icon-socials" width="20" height="20">
                   <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="socials-item">
-              <a class="socials-link-footer" href="">
+              <a class="socials-link-footer link" href="">
                 <svg class="icon-socials" width="20" height="20">
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
@@ -396,5 +396,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="btn-open" data-modal-close>
+          <svg class="icon-btn" width="30" height="30">
+            <use href="./images/sprite.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
